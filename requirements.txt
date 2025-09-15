@@ -1,0 +1,5 @@
+requests
+ipywidgets
+matplotlib
+numpy
+jupyterlab_widgets

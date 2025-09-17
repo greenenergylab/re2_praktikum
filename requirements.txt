@@ -3,3 +3,6 @@ ipywidgets
 matplotlib
 numpy
 jupyterlab_widgets
+coolprop
+pandas
+tabulate

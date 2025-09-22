@@ -1,0 +1,6 @@
+#!/bin/bash
+# postBuild
+
+# Configure nbconvert to use tectonic instead of xelatex
+mkdir -p ~/.jupyter
+echo "c.PDFExporter.latex_command = ['tectonic', '{filename}', '--synctex', 'false', '--keep-logs']" >> ~/.jupyter/jupyter_nbconvert_config.py

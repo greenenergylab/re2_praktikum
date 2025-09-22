@@ -7,7 +7,7 @@ dependencies:
   - notebook
   - nbconvert
   - pandoc
-  - tectonic  # lightweight LaTeX engine compatible with nbconvert
+  - tectonic  
   - ipykernel
   - pip
   - pip:

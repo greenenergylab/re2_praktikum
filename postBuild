@@ -1,7 +1,0 @@
-#!/bin/bash
-# Create nbconvert config directory
-mkdir -p /home/jovyan/.jupyter
-
-# Write config to use tectonic instead of xelatex
-echo "c = get_config()" >> /home/jovyan/.jupyter/jupyter_nbconvert_config.py
-echo "c.PDFExporter.latex_command = ['tectonic', '{filename}', '--synctex', 'false']" >> /home/jovyan/.jupyter/jupyter_nbconvert_config.py

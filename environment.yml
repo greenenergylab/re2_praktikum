@@ -1,0 +1,14 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - notebook
+  - nbconvert
+  - pandoc
+  - tectonic  # lightweight LaTeX engine compatible with nbconvert
+  - ipykernel
+  - pip
+  - pip:
+      - jupyterlab
